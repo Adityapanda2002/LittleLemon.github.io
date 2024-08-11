@@ -1,0 +1,29 @@
+.head-img{
+    height: 100px;
+    position: relative;
+    left: 480px;
+}
+.navigation{
+    background-color: #495e57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0px;
+}
+li>a{
+    color: white;
+    text-decoration: none;
+}
+.navigation li a{
+
+padding: 8px;
+border-radius: 10px;
+}
+.navigation a:hover{
+    background-color: #baff39;
+    color: black;
+}
+.navigation li{
+    list-style: none;
+}
